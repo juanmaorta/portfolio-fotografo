@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio — Martín Soler</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Cabecera con navegación -->
+    <header class="cabecera">
+        <p class="logo">Martín Soler</p>
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="biografia.html">Biografía</a>
+            <a href="portfolio.html" class="activo">Portfolio</a>
+        </nav>
+    </header>
+
+    <!-- Sección portfolio -->
+    <section class="portfolio">
+        <h2>Portfolio</h2>
+        <p class="portfolio-intro">Una selección de mis obras favoritas.</p>
+
+        <!-- La galería se rellena desde script.js -->
+        <div id="galeria" class="galeria"></div>
+    </section>
+
+    <!-- Pie de página -->
+    <footer class="pie">
+        <p>© <span id="anio"></span> Martín Soler · Fotografía</p>
+    </footer>
+
+    <!-- Primero los datos, después el script que los usa -->
+    <script src="datos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
