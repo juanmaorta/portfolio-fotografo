@@ -17,7 +17,9 @@ if (galeria !== null) {
         figura.className = "obra";
 
         figura.innerHTML = `
-            <img src="${obra.imagen}" alt="${obra.titulo}">
+            <div class="obra-marco">
+                <img src="${obra.imagen}" alt="${obra.titulo}">
+            </div>
             <figcaption>${obra.titulo}</figcaption>
         `;
 
