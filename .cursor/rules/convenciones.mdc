@@ -1,0 +1,39 @@
+---
+description: Convenciones del proyecto — el "brief" que el agente debe respetar siempre
+alwaysApply: true
+---
+
+# Convenciones de este proyecto
+
+Esta es una web sencilla de portfolio de un fotógrafo. La mantienen personas
+que están aprendiendo, así que el código tiene que quedar simple y legible.
+
+## Tecnología
+
+- Usa **solo HTML, CSS y JavaScript "a pelo"** (vanilla). No instales ni uses
+  frameworks ni librerías (nada de React, Vue, Bootstrap, Tailwind, jQuery...).
+- No añadas pasos de "build" ni herramientas que haya que instalar. La web tiene
+  que **abrirse haciendo doble clic en el HTML** y funcionar con el Live Server de Cursor/VSCode.
+- No añadas dependencias de internet salvo las imágenes de ejemplo que ya se usan.
+
+## Estilo del código
+
+- **Comentarios en español**, claros y pensados para alguien que está aprendiendo.
+- Nombres de variables descriptivos y en español cuando tenga sentido
+  (por ejemplo `galeria`, `anio`, `obras`).
+- Mantén la estructura actual: cada página HTML enlaza `styles.css` y `script.js`.
+
+## Diseño y marca
+
+- Los colores viven en **variables CSS** dentro de `:root` (en `styles.css`).
+  Si necesitas cambiar colores o añadir un tema, **usa esas variables**, no
+  pongas colores sueltos por el código.
+- El **color de marca es la terracota `#c2643f`** (`--color-acento`).
+  **No lo cambies sin avisar primero** y explicar por qué.
+- Tipografía serif (Georgia). Mantén el aire sobrio y cálido de la web.
+
+## Cómo trabajar
+
+- Antes de tocar varios archivos, di qué archivos vas a tocar y por qué.
+- Cambios pequeños y enfocados: no reescribas cosas que no te han pedido.
+- Si algo no está claro, **pregunta antes de inventar**.
